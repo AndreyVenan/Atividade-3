@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #3b1f2b, #8c3f4d);
+}
+.inicio {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 60px 10%;
+}
+.botao {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #71413a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    
+}
+
+.textoo {
+    max-width: 550px;
+}
+
+.textoo h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.textoo p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.imagem img {
+    width: 450px;
+    max-width: 100%;
+}
+.cartões {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.cartão {
+    padding: 30px;
+    border-radius: 15px;
+    background: #9d465f;
+}
+.links {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    }
+ .links a {
+    display: inline-block;
+    text-decoration: none;
+    color: #d19494;
+    }  
+  .links a:hover {
+    color: #fff;
+    }
+#logo {
+    width: 50px;
+    height: auto;
+    border-radius: 0%;
+    }
+#aga_dois {
+    color: #cb6363;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+#paragrafo {
+    color: #9f4e4e;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+#linha {
+    border: 1px solid #9f4e4e;
+    margin-top: 5px;
+}
+#img {
+    width: 450px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+#formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #9d465f;
+    border-radius: 10px;
+}
+.campo {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+#mensagem {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+#enviar {
+    width: 99%;
+    padding: 10px;
+    background-color: #71413a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#enviar:hover {
+    background-color: #5a322f;
+    transform: scale(1.05);
+}
+#candidaturas {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #9d465f;
+    border-radius: 10px;
+}
+#resultado {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #9d465f;
+    border-radius: 10px;
+}

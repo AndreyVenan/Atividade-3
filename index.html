@@ -1,0 +1,92 @@
+  <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+        
+
+            <div class="links">
+                <img id="logo" src="993552.png" alt="Logo da marca" >
+                <a href="#inicio" class="botao">Início</a>
+                <a href="#sobre" class="botao">Sobre</a>
+                <a href="#contato" class="botao">Contato</a>
+                <a href="#formulario" class="botao">Formulário de Contratação</a>
+            
+            </div>
+               <hr id="linha"> 
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio" class="inicio">
+            <div class="textoo">
+                <h2 id="aga_dois">Bem-vindo a nossa empresa</h2>
+                <p id="paragrafo">
+                    Ambiente renomado para seu futuro profissional.
+                </p>
+
+                <a href="#contato" class="botao">
+                    Conheça agora
+                </a>
+            </div>
+
+            <div class="imagem">
+                <img id="img" src="imagi.jpg" alt="Descrição da imagem">
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <h2>O que temos de especial?</h2>
+
+            <div class="cartões">
+                <div class="cartão">
+                    <h3>Qualidade</h3>
+                    <p>Qualidade excepcional em nossa equipe de desenvolvedores</p>
+                </div>
+
+                <div class="cartão">
+                    <h3>Bem avaliados</h3>
+                    <p>Projetos bem avaliados no mundo todo.</p>
+                </div>
+
+                <div class="cartão">
+                    <h3>Apoio</h3>
+                    <p>Suporte contínuo e orientação especializada para seus projetos.</p>
+                </div>
+            </div>
+        </section>
+<form id="formulario" action="#" method="post">
+    <h2>Formulário de Contratação</h2>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" class="campo" name="nome" required>
+
+    <label for="email">Email:</label>
+    <input type="email" class="campo" id="email" name="email" required>
+
+    <label for="mensagem">Por que você quer estagiar em nossa empresa?</label>
+    <textarea id="mensagem" name="mensagem" required></textarea>
+
+    <button type="submit" id="enviar">Enviar</button>
+</form>
+<div id="candidaturas">
+    <h2>Candidaturas recebidas, enviaremos Emails</h2>
+
+    <div id="resultado"></div>
+</div>
+    </main>
+
+    <footer id="contato">
+        <p>© 2026 Empresa | Contato: Empresa@Empresa.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
